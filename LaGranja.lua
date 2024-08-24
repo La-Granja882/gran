@@ -747,16 +747,16 @@ if _G.Switch_Hub_Series_R then
 		local Notify = AkaliNotif.Notify
 		Notify({
 			Description = '✅ Turn on and off (White Screen "Y")',
-			Title = "Switch Hub Kaitun | "..tostring(game.Players.LocalPlayer.Name),
+			Title = "Nadie | "..tostring(game.Players.LocalPlayer.Name),
 			Duration = 5
 		})
 		Notify({
-			Description = '👾 Turn on and off (Farming "B")',
+			Description = '👾 Turn on and off (Farming "🐷")',
 			Title = "Automatic Farming",
 			Duration = 5
 		})
 		local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/alichnochi/code/main/notification.status.lua", true))()
-		status_pass = Notification.new("message", 'Switch Hub Kaitun | ', "Status: ...")
+		status_pass = Notification.new("message", 'Nadie | ', "Status: ...")
 		status_pass:changeColor(Color3.fromRGB(15,15,15),Color3.fromRGB(42, 170, 138),Color3.fromRGB(255, 244, 0))
 		spawn(function()
 			while wait(1) do
@@ -808,7 +808,7 @@ if _G.Switch_Hub_Series_R then
 	end
 	
 	local PepsisWorld = library:CreateWindow({
-		Name = "Switch Hub [ Kaitun ]",
+		Name = "Nadie [ Kaitun ]",
 		Themeable = {	
 		}
 	})
