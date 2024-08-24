@@ -644,24 +644,25 @@ if _G.Switch_Hub_Series_R then
 		
 		Uitoggle.Name = "Uitoggle"
 		Uitoggle.Parent = ToggleFrameUi
-		Uitoggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Uitoggle.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
 		Uitoggle.BackgroundTransparency = 1.000
 		Uitoggle.Position = UDim2.new(0.14, 0, 0.1, 0)
 		Uitoggle.Size = UDim2.new(0, 137, 0, 25)
 		Uitoggle.Font = Enum.Font.GothamSemibold
-		Uitoggle.Text = "Nadie"
-		Uitoggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Uitoggle.Text = "Nadie Mas Que Yo"
+		Uitoggle.TextColor3 = Color3.fromRGB(128, 0, 128)
 		Uitoggle.TextSize = 12.000
 		
 		Yedhee.Name = "Yedhee"
 		Yedhee.Parent = ToggleFrameUi
-		Yedhee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Yedhee.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
 		Yedhee.BackgroundTransparency = 1.000
 		Yedhee.Position = UDim2.new(0.14, 0, 0.429166657, 0)
 		Yedhee.Size = UDim2.new(0, 137, 0, 25)
 		Yedhee.Font = Enum.Font.GothamSemibold
-		Yedhee.Text = "Tipo (B)"
-		Yedhee.TextColor3 = Color3.fromRGB(0, 255, 186) 
+		Yedhee.Text = "Solo Gosalo"
+		Yedhee.TextColor3 = Color3.fromRGB(255, 255, 0)
+ 
 		Yedhee.TextSize = 12.000
 		
 		if game.CoreGui:FindFirstChild('Switch Hub C') then
