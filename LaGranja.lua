@@ -399,12 +399,12 @@ if _G.Switch_Hub_Series_R then
 			return bit_zes
 		end
 
-		if game:GetService("CoreGui"):FindFirstChild('Nadie') then
-			game:GetService("CoreGui"):FindFirstChild('Nadie'):Destroy()
+		if game:GetService("CoreGui"):FindFirstChild('Switch Hub') then
+			game:GetService("CoreGui"):FindFirstChild('Switch Hub'):Destroy()
 		end
 		-- Switch Hub
 		local Switch_Hub = Instance.new("ScreenGui")
-		Switch_Hub.Name = "Nadie"
+		Switch_Hub.Name = "Switch Hub"
 		Switch_Hub.Parent = game:GetService("CoreGui")
 		Switch_Hub.Enabled = false
 		
