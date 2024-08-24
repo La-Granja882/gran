@@ -399,12 +399,12 @@ if _G.Switch_Hub_Series_R then
 			return bit_zes
 		end
 
-		if game:GetService("CoreGui"):FindFirstChild('Switch Hub') then
-			game:GetService("CoreGui"):FindFirstChild('Switch Hub'):Destroy()
+		if game:GetService("CoreGui"):FindFirstChild('Nadie') then
+			game:GetService("CoreGui"):FindFirstChild('Nadie'):Destroy()
 		end
 		-- Switch Hub
 		local Switch_Hub = Instance.new("ScreenGui")
-		Switch_Hub.Name = "Switch Hub"
+		Switch_Hub.Name = "Nadie"
 		Switch_Hub.Parent = game:GetService("CoreGui")
 		Switch_Hub.Enabled = false
 		
@@ -649,7 +649,7 @@ if _G.Switch_Hub_Series_R then
 		Uitoggle.Position = UDim2.new(0.14, 0, 0.1, 0)
 		Uitoggle.Size = UDim2.new(0, 137, 0, 25)
 		Uitoggle.Font = Enum.Font.GothamSemibold
-		Uitoggle.Text = "Switch Hub Kaitun"
+		Uitoggle.Text = "Nadie"
 		Uitoggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Uitoggle.TextSize = 12.000
 		
@@ -660,7 +660,7 @@ if _G.Switch_Hub_Series_R then
 		Yedhee.Position = UDim2.new(0.14, 0, 0.429166657, 0)
 		Yedhee.Size = UDim2.new(0, 137, 0, 25)
 		Yedhee.Font = Enum.Font.GothamSemibold
-		Yedhee.Text = "White Screen (B)"
+		Yedhee.Text = "Tipo (B)"
 		Yedhee.TextColor3 = Color3.fromRGB(0, 255, 186) 
 		Yedhee.TextSize = 12.000
 		
@@ -11245,14 +11245,14 @@ if _G.Switch_Hub_Series_R then
 					["description"] = "**Join Script**\n```lua\n"..tostring('game:GetService("ReplicatedStorage").__ServerBrowser:InvokeServer("teleport","'..game.JobId..'")').."\n```";
 					["author"] = {
 						["name"] = "Nadie (Notification)";
-						["icon_url"] = "https://media.discordapp.net/attachments/1167889685411016756/1215942962467573860/SW.jpg?ex=65fe9621&is=65ec2121&hm=12d96eeae682639bd3987b5163ac2d2245d3fe09ad6d90a3a06e2a5fc5d98d90&=&format=webp&width=662&height=662";
+						["icon_url"] = "https://cdn.discordapp.com/attachments/1253848752545071215/1277043740854190130/OIP.jpg?ex=66cbbb2a&is=66ca69aa&hm=124b93458c96b99542eb0e5afb2aae22fe509d6c9ea861ea1bba423ce0b5f5b6&";
 					};
 					["thumbnail"] = {
 						["url"] = "https://pbs.twimg.com/media/FDsZOHhVkAUsFeJ.jpg";
 					};
 					["footer"] = {
 						["text"] = "By Me";
-						["icon_url"] = "https://media.discordapp.net/attachments/1167889685411016756/1215942962467573860/SW.jpg?ex=65fe9621&is=65ec2121&hm=12d96eeae682639bd3987b5163ac2d2245d3fe09ad6d90a3a06e2a5fc5d98d90&=&format=webp&width=662&height=662";
+						["icon_url"] = "https://cdn.discordapp.com/attachments/1253848752545071215/1277043740854190130/OIP.jpg?ex=66cbbb2a&is=66ca69aa&hm=124b93458c96b99542eb0e5afb2aae22fe509d6c9ea861ea1bba423ce0b5f5b6&";
 					};
 					["timestamp"] = DateTime.now():ToIsoDate()
 				}
@@ -11307,14 +11307,14 @@ if _G.Switch_Hub_Series_R then
 					["description"] = "**Join Script**\n```lua\n"..tostring('game:GetService("ReplicatedStorage").__ServerBrowser:InvokeServer("teleport","'..game.JobId..'")').."\n```";
 					["author"] = {
 						["name"] = "Nadie (Notification)";
-						["icon_url"] = "https://media.discordapp.net/attachments/1167889685411016756/1215942962467573860/SW.jpg?ex=65fe9621&is=65ec2121&hm=12d96eeae682639bd3987b5163ac2d2245d3fe09ad6d90a3a06e2a5fc5d98d90&=&format=webp&width=662&height=662";
+						["icon_url"] = "https://cdn.discordapp.com/attachments/1253848752545071215/1277043740854190130/OIP.jpg?ex=66cbbb2a&is=66ca69aa&hm=124b93458c96b99542eb0e5afb2aae22fe509d6c9ea861ea1bba423ce0b5f5b6&";
 					};
 					["thumbnail"] = {
 						["url"] = "https://pbs.twimg.com/media/FDsZOHhVkAUsFeJ.jpg";
 					};
 					["footer"] = {
 						["text"] = "By Me";
-						["icon_url"] = "https://media.discordapp.net/attachments/1167889685411016756/1215942962467573860/SW.jpg?ex=65fe9621&is=65ec2121&hm=12d96eeae682639bd3987b5163ac2d2245d3fe09ad6d90a3a06e2a5fc5d98d90&=&format=webp&width=662&height=662";
+						["icon_url"] = "https://cdn.discordapp.com/attachments/1253848752545071215/1277043740854190130/OIP.jpg?ex=66cbbb2a&is=66ca69aa&hm=124b93458c96b99542eb0e5afb2aae22fe509d6c9ea861ea1bba423ce0b5f5b6&";
 					};
 					["timestamp"] = DateTime.now():ToIsoDate()
 				}
