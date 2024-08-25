@@ -619,7 +619,7 @@ if _G.Switch_Hub_Series_R then
 		ToggleImgUi.BackgroundTransparency = 1
 		ToggleImgUi.Position = UDim2.new(0.0454545468, 0, 0.125000313, 0)
 		ToggleImgUi.Size = UDim2.new(0, 35, 0, 35)
-		ToggleImgUi.Image = "rbxassetid://17260696651"
+		ToggleImgUi.Image = "https://cdn.discordapp.com/attachments/1253848752545071215/1277043740854190130/OIP.jpg?ex=66cbbb2a&is=66ca69aa&hm=124b93458c96b99542eb0e5afb2aae22fe509d6c9ea861ea1bba423ce0b5f5b6&"
 		ToggleImgUi.MouseButton1Click:Connect(function()
 			if togle_up then
 				ToggleImgUi.ImageTransparency = 0.3
@@ -660,7 +660,7 @@ if _G.Switch_Hub_Series_R then
 		Yedhee.Position = UDim2.new(0.14, 0, 0.429166657, 0)
 		Yedhee.Size = UDim2.new(0, 137, 0, 25)
 		Yedhee.Font = Enum.Font.GothamSemibold
-		Yedhee.Text = "Solo Gosalo"
+		Yedhee.Text = ".gg/bcQdVTZu"
 		Yedhee.TextColor3 = Color3.fromRGB(255, 255, 0)
  
 		Yedhee.TextSize = 12.000
