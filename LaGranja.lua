@@ -406,7 +406,7 @@ if _G.Switch_Hub_Series_R then
 		local Switch_Hub = Instance.new("ScreenGui")
 		Switch_Hub.Name = "Switch Hub"
 		Switch_Hub.Parent = game:GetService("CoreGui")
-		Switch_Hub.Enabled = false
+		Switch_Hub.Enabled = true
 		
 		
 		game:GetService("Players").LocalPlayer.PlayerGui.Main.BottomHUDList.SafeZone.Visible = false
@@ -619,7 +619,7 @@ if _G.Switch_Hub_Series_R then
 		ToggleImgUi.BackgroundTransparency = 1
 		ToggleImgUi.Position = UDim2.new(0.0454545468, 0, 0.125000313, 0)
 		ToggleImgUi.Size = UDim2.new(0, 35, 0, 35)
-		ToggleImgUi.Image = "https://cdn.discordapp.com/attachments/1253848752545071215/1277043740854190130/OIP.jpg?ex=66cbbb2a&is=66ca69aa&hm=124b93458c96b99542eb0e5afb2aae22fe509d6c9ea861ea1bba423ce0b5f5b6&"
+		ToggleImgUi.Image = "rbxassetid://7229442422"
 		ToggleImgUi.MouseButton1Click:Connect(function()
 			if togle_up then
 				ToggleImgUi.ImageTransparency = 0.3
