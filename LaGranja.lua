@@ -404,7 +404,7 @@ if _G.Switch_Hub_Series_R then
 		end
 		-- Switch Hub
 		local Switch_Hub = Instance.new("ScreenGui")
-		Switch_Hub.Name = "Switch Hub"
+		Switch_Hub.Name = "POLLITO PIO"
 		Switch_Hub.Parent = game:GetService("CoreGui")
 		Switch_Hub.Enabled = false
 		
@@ -555,7 +555,7 @@ if _G.Switch_Hub_Series_R then
 		game:GetService("CoreGui")["Switch Hub"].Text4.Fragments.TextStrokeTransparency = 1
 
 		local BlurSwitch = Instance.new("BlurEffect")
-		BlurSwitch.Name = "SwitchBlur"
+		BlurSwitch.Name = "POLLO AZUL"
 		BlurSwitch.Parent = game:GetService("Lighting")
 		BlurSwitch.Enabled = true
 		BlurSwitch.Size = 0
@@ -649,7 +649,7 @@ if _G.Switch_Hub_Series_R then
 		Uitoggle.Position = UDim2.new(0.14, 0, 0.1, 0)
 		Uitoggle.Size = UDim2.new(0, 137, 0, 25)
 		Uitoggle.Font = Enum.Font.GothamSemibold
-		Uitoggle.Text = "Nadie Mas Que Yo"
+		Uitoggle.Text = "La Granja"
 		Uitoggle.TextColor3 = Color3.fromRGB(128, 0, 128)
 		Uitoggle.TextSize = 12.000
 		
@@ -748,7 +748,7 @@ if _G.Switch_Hub_Series_R then
 		local Notify = AkaliNotif.Notify
 		Notify({
 			Description = '✅ Turn on and off (White Screen "Y")',
-			Title = "Nadie | "..tostring(game.Players.LocalPlayer.Name),
+			Title = "Pollito Farm | "..tostring(game.Players.LocalPlayer.Name),
 			Duration = 5
 		})
 		Notify({
@@ -809,7 +809,7 @@ if _G.Switch_Hub_Series_R then
 	end
 	
 	local PepsisWorld = library:CreateWindow({
-		Name = "Nadie [ Kaitun ]",
+		Name = "La Granja [ Kaitun ]",
 		Themeable = {	
 		}
 	})
