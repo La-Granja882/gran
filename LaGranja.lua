@@ -649,7 +649,7 @@ if _G.Switch_Hub_Series_R then
 		Uitoggle.Position = UDim2.new(0.14, 0, 0.1, 0)
 		Uitoggle.Size = UDim2.new(0, 137, 0, 25)
 		Uitoggle.Font = Enum.Font.GothamSemibold
-		Uitoggle.Text = "La Granja"
+		Uitoggle.Text = "FREE KAITUN"
 		Uitoggle.TextColor3 = Color3.fromRGB(128, 0, 128)
 		Uitoggle.TextSize = 12.000
 		
@@ -660,7 +660,7 @@ if _G.Switch_Hub_Series_R then
 		Yedhee.Position = UDim2.new(0.14, 0, 0.429166657, 0)
 		Yedhee.Size = UDim2.new(0, 137, 0, 25)
 		Yedhee.Font = Enum.Font.GothamSemibold
-		Yedhee.Text = ".gg/bcQdVTZu"
+		Yedhee.Text = "discord.gg/bcQdVTZu"
 		Yedhee.TextColor3 = Color3.fromRGB(255, 255, 0)
  
 		Yedhee.TextSize = 12.000
@@ -809,7 +809,7 @@ if _G.Switch_Hub_Series_R then
 	end
 	
 	local PepsisWorld = library:CreateWindow({
-		Name = "La Granja [ Kaitun ]",
+		Name = "FREE [ Kaitun ]",
 		Themeable = {	
 		}
 	})
