@@ -731,10 +731,10 @@ if _G.Reset_Hub_Series_R then
 		]]
 		wait(.5)
 		if _G.Setting['Black Screen'] then
-			ToggleImgUi.ImageTransparency = 0
+			ToggleImgUi.ImageTransparency = 0.3
 			uihide = true
 			game:GetService("CoreGui")["Reset Hub"].Enabled = true
-			game.Lighting.ExposureCompensation = 10
+			game.Lighting.ExposureCompensation = -10
 			--BlurReset.Size = 80
 			togle_up = true
 			wait()
