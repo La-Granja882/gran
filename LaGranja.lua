@@ -663,7 +663,7 @@ if _G.Reset_Hub_Series_R then
 		Yedhee.Position = UDim2.new(0.14, 0, 0.429166657, 0)
 		Yedhee.Size = UDim2.new(0, 137, 0, 25)
 		Yedhee.Font = Enum.Font.GothamSemibold
-		Yedhee.Text = "White Screen (B)"
+		Yedhee.Text = "White Screen"
 		Yedhee.TextColor3 = Color3.fromRGB(0, 255, 186) 
 		Yedhee.TextSize = 12.000
 		
@@ -736,7 +736,7 @@ if _G.Reset_Hub_Series_R then
 			ToggleImgUi.ImageTransparency = 0.3
 			uihide = true
 			game:GetService("CoreGui")["Reset Hub"].Enabled = true
-			game.Lighting.ExposureCompensation = -10
+			game.Lighting.ExposureCompensation = 10
 			--BlurReset.Size = 80
 			togle_up = true
 			wait()
