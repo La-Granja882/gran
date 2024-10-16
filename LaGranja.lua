@@ -736,7 +736,7 @@ if _G.Reset_Hub_Series_R then
 			ToggleImgUi.ImageTransparency = 0.3
 			uihide = true
 			game:GetService("CoreGui")["Reset Hub"].Enabled = true
-			game.Lighting.ExposureCompensation = 10
+			game.Lighting.ExposureCompensation = -10
 			--BlurReset.Size = 80
 			togle_up = true
 			wait()
@@ -1070,7 +1070,7 @@ if _G.Reset_Hub_Series_R then
 			TleP = true
 		end
 	})
-	--[[
+	
 	local Capcut_S = General_T:CreateSection({
 		Name = " Capcut ",
 		Side = 'Left'
@@ -1087,8 +1087,7 @@ if _G.Reset_Hub_Series_R then
 			
 		end
 	})
-	]]
-	--
+	
 	Map_List = {}
 	for i,v in next,game:GetService("Workspace").Map:GetChildren() do
 	if v:IsA('Model') then
